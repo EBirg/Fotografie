@@ -543,7 +543,7 @@
             }
           },
           "_name": "menu2",
-          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#444444\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"https://mobirise.com\">\n                    <img src=\"../_images/logo3.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-warning\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">\n                    Ewald Birg Fotografie</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-warning\" href=\"index.html#header6-e\" data-app-selector=\".nav-link,.dropdown-item\">Start</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-warning\" href=\"index.html#gallery1-1p\" data-app-selector=\".nav-link,.dropdown-item\" target=\"_blank\">Architektur&amp;Technik</a></li><li class=\"nav-item\"><a class=\"nav-link link text-warning\" href=\"index.html#gallery1-1q\" data-app-selector=\".nav-link,.dropdown-item\" target=\"_blank\">Hobby&amp;Sport</a></li><li class=\"nav-item\"><a class=\"nav-link link text-warning\" href=\"index.html#gallery1-1v\" data-app-selector=\".nav-link,.dropdown-item\" target=\"_blank\">Menschen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-warning\" href=\"index.html#gallery1-1y\" data-app-selector=\".nav-link,.dropdown-item\" target=\"_blank\">Reisen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-warning\" href=\"index.html#gallery1-21\" data-app-selector=\".nav-link,.dropdown-item\" target=\"_blank\">Tiere&amp;Pflanzen</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-warning\" href=\"index.html#features8-11\" data-app-selector=\".nav-link,.dropdown-item\" target=\"_blank\">Ausstellungen</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-warning\" href=\"index.html#image2-m\" data-app-selector=\".nav-link,.dropdown-item\" target=\"_blank\">Projekte</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-warning\" href=\"index.html#features5-s\" data-app-selector=\".nav-link,.dropdown-item\" target=\"_blank\">Über mich</a></li><li class=\"nav-item\"><a class=\"nav-link link text-warning\" href=\"#bottom\" data-app-selector=\".nav-link,.dropdown-item\" target=\"_blank\">Impressum</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-md btn-primary\" href=\"#bottom\">\n                    Kontakt</a></div>\n      </div>\n    </nav>    \n</section>",
+          "_customHTML": "<section class=\"menu\" group=\"Menu\" plugins=\"DropDown, TouchSwipe\" always-top global once=\"menu\" not-draggable position-absolute>\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"checkbox\" title=\"Show Logo\" name=\"showLogo\">\n        <input type=\"range\" title=\"Logo Size\" inline name=\"logoSize\" min=\"3.8\" max=\"8\" step=\"0.1\" value=\"3.8\" condition=\"showLogo\">\n        <input type=\"checkbox\" title=\"Show Brand Name\" name=\"showBrand\" checked>\n        <input type=\"checkbox\" title=\"Show Menu Items\" name=\"showItems\" checked>\n        <input type=\"checkbox\" title=\"Show Icons\" name=\"showIcons\" checked>\n        <input type=\"checkbox\" title=\"Show Button(s)\" name=\"showButtons\" checked>\n        <input type=\"checkbox\" title=\"Sticky\" name=\"sticky\" checked>\n        <input type=\"checkbox\" title=\"Collapsed\" name=\"collapsed\">\n        <input type=\"checkbox\" title=\"Transparent\" name=\"transparent\">\n        <input type=\"color\" title=\"Hamburger Color\" name=\"hamburgerColor\" value=\"#232323\">\n        <input type=\"color\" title=\"Dropdown Menu Color\" name=\"dropdownColor\" value=\"#444444\">\n        <input type=\"color\" title=\"Background Color\" name=\"menuBgColor\" value=\"#ffffff\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    \n\n    <nav class=\"navbar navbar-dropdown\" mbr-class=\"{'navbar-fixed-top':sticky,\n                     'navbar-expand-lg':!collapsed,\n                     'collapsed':collapsed}\">\n        <div class=\"navbar-brand\">\n            <span mbr-if=\"showLogo\" class=\"navbar-logo\">\n                <a href=\"https://mobirise.com\">\n                    <img src=\"../_images/logo3.png\" alt=\"Mobirise\" mbr-style=\"{'height': logoSize + 'rem'}\">\n                </a>\n            </span>\n            <span mbr-if=\"showBrand\" mbr-buttons mbr-theme-style=\"display-1\" class=\"navbar-caption-wrap\" data-toolbar=\"-mbrBtnMove,-mbrBtnAdd,-mbrBtnRemove\"><a class=\"navbar-caption text-warning\" data-app-selector=\".navbar-caption\" href=\"https://mobirise.com\">\n                    Ewald Birg Fotografie</a></span>\n        </div>\n        <button class=\"navbar-toggler\" type=\"button\" data-toggle=\"collapse\" data-target=\"#navbarSupportedContent\" aria-controls=\"navbarNavAltMarkup\" aria-expanded=\"false\" aria-label=\"Toggle navigation\" mbr-if=\"showItems\">\n            <div class=\"hamburger\">\n                <span></span>\n                <span></span>\n                <span></span>\n                <span></span>\n            </div>\n        </button>\n      <div class=\"collapse navbar-collapse\" id=\"navbarSupportedContent\">\n            <ul mbr-menu class=\"navbar-nav nav-dropdown\" mbr-theme-style=\"display-4\" mbr-class=\"{'nav-right': !showButtons,'navbar-nav-top-padding': isPublish && !showBrand && !showLogo}\"><li class=\"nav-item\">\n                    <a class=\"nav-link link text-warning\" href=\"index.html#header6-e\" data-app-selector=\".nav-link,.dropdown-item\">Start</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-warning\" href=\"index.html#gallery1-1p\" data-app-selector=\".nav-link,.dropdown-item\" target=\"_blank\">Technik &amp; Architektur</a></li><li class=\"nav-item\"><a class=\"nav-link link text-warning\" href=\"index.html#gallery1-1q\" data-app-selector=\".nav-link,.dropdown-item\" target=\"_blank\">Hobby &amp; Sport</a></li><li class=\"nav-item\"><a class=\"nav-link link text-warning\" href=\"index.html#gallery1-1v\" data-app-selector=\".nav-link,.dropdown-item\" target=\"_blank\">Menschen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-warning\" href=\"index.html#gallery1-1y\" data-app-selector=\".nav-link,.dropdown-item\" target=\"_blank\">Reisen</a></li><li class=\"nav-item\"><a class=\"nav-link link text-warning\" href=\"index.html#gallery1-21\" data-app-selector=\".nav-link,.dropdown-item\" target=\"_blank\">Tiere &amp; Pflanzen</a></li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-warning\" href=\"index.html#features8-11\" data-app-selector=\".nav-link,.dropdown-item\" target=\"_blank\">Ausstellungen</a>\n                </li>\n                <li class=\"nav-item\">\n                    <a class=\"nav-link link text-warning\" href=\"index.html#image2-m\" data-app-selector=\".nav-link,.dropdown-item\" target=\"_blank\">Projekte</a>\n                </li><li class=\"nav-item\"><a class=\"nav-link link text-warning\" href=\"index.html#features5-s\" data-app-selector=\".nav-link,.dropdown-item\" target=\"_blank\">Über mich</a></li><li class=\"nav-item\"><a class=\"nav-link link text-warning\" href=\"#bottom\" data-app-selector=\".nav-link,.dropdown-item\" target=\"_blank\">Impressum</a></li></ul>\n            <div mbr-if=\"showButtons\" mbr-buttons mbr-theme-style=\"display-4\" class=\"navbar-buttons mbr-section-btn\"><a class=\"btn btn-md btn-primary\" href=\"#bottom\">\n                    Kontakt</a></div>\n      </div>\n    </nav>    \n</section>",
           "_cid": "qC2duaUg0G",
           "_anchor": "menu2-1",
           "_PHPplaceholders": [],
@@ -770,7 +770,7 @@
                 "active": false
               },
               {
-                "tags": "",
+                "tags": "Technik & Architektur",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -794,7 +794,7 @@
                 "active": false
               },
               {
-                "tags": "Techni&Architektur",
+                "tags": "Technik & Architektur",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -806,7 +806,7 @@
                 "active": false
               },
               {
-                "tags": "Technik&Architektur",
+                "tags": "Technik",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -818,7 +818,7 @@
                 "active": false
               },
               {
-                "tags": "Technik",
+                "tags": "Technik & Architektur",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -830,7 +830,7 @@
                 "active": false
               },
               {
-                "tags": "Architektur",
+                "tags": "Technik",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -839,7 +839,7 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Mercedes-Benz Museum",
-                "active": false
+                "active": true
               },
               {
                 "tags": "Architektur",
@@ -1007,7 +1007,7 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Vancouver",
-                "active": true
+                "active": false
               }
             ]
           }
@@ -1264,10 +1264,10 @@
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Scorpions Sisters",
-                "active": true
+                "active": false
               },
               {
-                "tags": "Responsive",
+                "tags": "",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1279,7 +1279,7 @@
                 "active": false
               },
               {
-                "tags": "Responsive",
+                "tags": "",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1291,7 +1291,7 @@
                 "active": false
               },
               {
-                "tags": "Responsive",
+                "tags": "",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1303,16 +1303,136 @@
                 "active": false
               },
               {
-                "tags": "Responsive",
+                "tags": "",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/scorpions-sisters-8080-1200x800.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/scorpions-sisters-8080-1200x800-800x533.jpg",
+                "image": "@PROJECT_PATH@/assets/images/-ebi3793-802x535.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/ebi3793-802x535-800x533.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
                 "caption": "Scorpions Sisters",
                 "active": false
+              },
+              {
+                "tags": "",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/-dsc5643-803x535.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc5643-803x535-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Scorpions Sisters",
+                "active": false
+              },
+              {
+                "tags": "",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/-dsc5488-803x535.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc5488-803x535-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Scorpions Sisters",
+                "active": false
+              },
+              {
+                "tags": "",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/-dsc5227-803x535.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/dsc5227-803x535-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Scorpions Sisters",
+                "active": false
+              },
+              {
+                "tags": "",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/eb-1.bl-4139-802x535.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/eb-1.bl-4139-802x535-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Scorpions Sisters",
+                "active": false
+              },
+              {
+                "tags": "",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/eb-1.bl-residenz-5499-803x535.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/eb-1.bl-residenz-5499-803x535-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Scorpions Sisters",
+                "active": false
+              },
+              {
+                "tags": "",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/eb-1.bl-residenz-5499-803x535.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/eb-1.bl-residenz-5499-803x535-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Scorpions Sisters",
+                "active": false
+              },
+              {
+                "tags": "",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/msur-3147-803x535.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/msur-3147-803x535-800x533.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Scorpions Sisters",
+                "active": false
+              },
+              {
+                "tags": "",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/mur-647-800x534.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mur-647-800x534-800x534.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Scorpions Sisters",
+                "active": false
+              },
+              {
+                "tags": "",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/mur-642-800x534.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mur-642-800x534-800x534.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Scorpions Sisters",
+                "active": false
+              },
+              {
+                "tags": "",
+                "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
+                "playVideo": false,
+                "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
+                "image": "@PROJECT_PATH@/assets/images/mur-651-800x534.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/mur-651-800x534-800x534.jpg",
+                "alt": "",
+                "customStyle1": "display-7",
+                "caption": "Scorpions Sisters",
+                "active": true
               }
             ]
           }
@@ -1557,7 +1677,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Portrait",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1569,7 +1689,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Portrait",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1581,7 +1701,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Portrait",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1593,7 +1713,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Portrait",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1605,7 +1725,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Portrait",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1617,7 +1737,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Portrait",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1629,7 +1749,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Portrait",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1641,7 +1761,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Portrait",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1653,7 +1773,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Portrait",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1665,7 +1785,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Portrait",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1677,7 +1797,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Portrait",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1689,7 +1809,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Thema Märchen",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1701,7 +1821,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Portrait",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1713,7 +1833,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Portrait",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1725,7 +1845,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Portrait",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1737,7 +1857,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Thema Märchen",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1749,7 +1869,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Thema Märchen",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1761,7 +1881,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Portrait",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -1773,15 +1893,15 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Steampunk",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
-                "image": "@PROJECT_PATH@/assets/images/mur-647-800x534.jpg",
-                "thumb": "@PROJECT_PATH@/assets/images/mur-647-800x534-800x534.jpg",
+                "image": "@PROJECT_PATH@/assets/images/steam-monrepos-4502-802x535.jpg",
+                "thumb": "@PROJECT_PATH@/assets/images/steam-monrepos-4502-802x535-800x533.jpg",
                 "alt": "",
                 "customStyle1": "display-7",
-                "caption": "Musikschule Unteres Remstal",
+                "caption": "Tine",
                 "active": true
               }
             ]
@@ -1997,7 +2117,7 @@
             }
           },
           "_name": "gallery1",
-          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" checked condition=\"showTitle\">\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#444444\" condition=\"showUnderline && showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#444444\">\n        <input type=\"color\" title=\"Active Tag Color\" name=\"activeTagColor\" value=\"#ffbc00\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-sm-10\">\n                <h2 class=\"mbr-section-title mbr-fonts-styl align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.underline\">Reisen</h2>\n                <div class=\"underline align-center\" mbr-if=\"showUnderline && showTitle\">\n                    <div class=\"line\"></div>\n                </div>\n                <h3 class=\"mbr-section-subtitle mbr-light mbr-fonts-style pt-3 align-center\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubtitle\">Gallery with text in top on hover. Use block parameters to off/on text, bullets and other. Zur <a href=\"index.html#wowslider-20\">Diashow </a>Vietnam.</h3>\n            </div>\n        </div>\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"pt-5\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-filter mbr-gallery-show-text mbr-gallery-show-bullets></div>\n    </div>\n</section>",
+          "_customHTML": "<section class=\"mbr-gallery mbr-slider-carousel\" group=\"Sliders & Gallery\" plugins=\"Masonry,Slider,BootstrapCarouselSwipe,Gallery,VimeoVideo\">\n\n    <mbr-parameters>\n    <!-- Block parameters controls (Blue \"Gear\" panel) -->\n        <input type=\"range\" title=\"Top\" name=\"paddingTop\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"range\" title=\"Bottom\" name=\"paddingBottom\" min=\"0\" max=\"9\" step=\"1\" value=\"6\" inline>\n        <input type=\"checkbox\" title=\"Full Width\" name=\"fullWidth\">\n        <input type=\"checkbox\" title=\"Show Title\" name=\"showTitle\" checked>\n        <input type=\"checkbox\" title=\"Show Underline\" name=\"showUnderline\" checked condition=\"showTitle\">\n        <input type=\"color\" title=\"Underline Color\" name=\"underlineColor\" value=\"#444444\" condition=\"showUnderline && showTitle\">\n        <input type=\"checkbox\" title=\"Show Subtitle\" name=\"showSubtitle\" checked>\n        <input type=\"color\" title=\"Tags Color\" name=\"tagsColor\" value=\"#444444\">\n        <input type=\"color\" title=\"Active Tag Color\" name=\"activeTagColor\" value=\"#ffbc00\">\n        <input type=\"color\" title=\"Background Color\" name=\"bgColor\" value=\"#ffffff\">\n        <input type=\"gallery\" title=\"Gallery\" name=\"gallery\">\n    <!-- End block parameters -->\n    </mbr-parameters>\n    <div class=\"container\">\n        <div class=\"row justify-content-center\">\n            <div class=\"col-sm-10\">\n                <h2 class=\"mbr-section-title mbr-fonts-styl align-center\" mbr-theme-style=\"display-2\" mbr-if=\"showTitle\" data-app-selector=\".mbr-section-title,.underline\">Reisen</h2>\n                <div class=\"underline align-center\" mbr-if=\"showUnderline && showTitle\">\n                    <div class=\"line\"></div>\n                </div>\n                <h3 class=\"mbr-section-subtitle mbr-light mbr-fonts-style pt-3 align-center\" mbr-theme-style=\"display-5\" data-app-selector=\".mbr-section-subtitle\" mbr-if=\"showSubtitle\">Gallery with text in top on hover. Use block parameters to off/on text, bullets and other. Zur <a href=\"index.html#wowslider-20\">Diashow </a>Vietnam und Schottland.</h3>\n            </div>\n        </div>\n    </div>\n    <div mbr-class=\"{'container': !fullWidth}\">\n        <div class=\"pt-5\" mbr-gallery=\"gallery\" mbr-gallery-spacing=\"1\" mbr-gallery-show-filter mbr-gallery-show-text mbr-gallery-show-bullets></div>\n    </div>\n</section>",
           "_cid": "qCBnH0zpwG",
           "_anchor": "gallery1-1y",
           "_protectedParams": [
@@ -2014,7 +2134,7 @@
             "gallery__filtersBtnStyle": "btn-primary-outline",
             "gallery": [
               {
-                "tags": "Awesome",
+                "tags": "Mexico",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2026,7 +2146,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Mexico",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2038,7 +2158,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Mexico",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2050,7 +2170,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Griechenland",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2062,7 +2182,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Griechenland",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2074,7 +2194,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "USA",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2086,7 +2206,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Japan",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2098,7 +2218,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Japan",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2122,7 +2242,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Bali",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2134,7 +2254,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Dubai",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2146,7 +2266,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Dubai",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2158,7 +2278,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Hongkong",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2170,7 +2290,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Vietnam",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2182,7 +2302,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Vietnam",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2194,7 +2314,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Vietnam",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2206,7 +2326,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Vietnam",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2218,7 +2338,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Vietnam",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2230,7 +2350,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Italien",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2242,7 +2362,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Hongkong",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2254,7 +2374,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Hongkong",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2266,7 +2386,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Hongkong",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2278,7 +2398,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Hongkong",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2290,7 +2410,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Hongkong",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2302,7 +2422,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Dubai",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2314,7 +2434,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Dubai",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2326,7 +2446,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Dubai",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2338,7 +2458,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Dubai",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2350,7 +2470,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Dubai",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2362,7 +2482,7 @@
                 "active": false
               },
               {
-                "tags": "Awesome",
+                "tags": "Italien",
                 "videoPreview": "@THEME_PATH@/components/_images/gallery/preview.jpg",
                 "playVideo": false,
                 "videoUrl": "https://www.youtube.com/watch?v=fwkKc6M60-0",
@@ -2415,7 +2535,7 @@
                 "tooltip": "@PROJECT_PATH@/assets/images/vietnam2017-2-13-72x48.png",
                 "title": "title 2",
                 "text": "text 2",
-                "active": true
+                "active": false
               },
               {
                 "image": "@PROJECT_PATH@/assets/images/vietnam2017-2-16-864x576.jpg",
@@ -2516,6 +2636,86 @@
                 "title": "title 2",
                 "text": "text 2",
                 "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-dsc2854-1-864x576.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/_dsc2854-864x576.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/-dsc2854-72x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-dsc2866-1-864x576.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/_dsc2866-864x576.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/-dsc2866-72x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-dsc2873-1-864x576.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/_dsc2873-864x576.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/-dsc2873-72x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-dsc2927-3-864x576.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/_dsc2927-2-864x576.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/-dsc2927-2-72x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-dsc2923-1-864x576.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/_dsc2923-864x576.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/-dsc2923-72x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-dsc2981-1-864x576.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/_dsc2981-864x576.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/-dsc2981-72x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-dsc3183-1-864x576.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/_dsc3183-864x576.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/-dsc3183-72x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": false
+              },
+              {
+                "image": "@PROJECT_PATH@/assets/images/-dsc3216-1-864x576.jpg",
+                "linkUrl": "http://google.com",
+                "link": false,
+                "src": "@PROJECT_PATH@/assets/images/_dsc3216-864x576.jpg",
+                "tooltip": "@PROJECT_PATH@/assets/images/-dsc3216-72x48.png",
+                "title": "title 1",
+                "text": "text 1",
+                "active": true
               }
             ],
             "fullScreen": true,
